@@ -62,6 +62,8 @@ export default function Home() {
           <a href="https://opensea.io/Boboch" target="_blank" rel="noopener noreferrer" >Opensea</a>
           <a href="https://linkedin.com/in/bobochdbrew" target="_blank" rel="noopener noreferrer" >Linkedin</a>
           <a href="https://instagram.com/bobochdbrew" target="_blank" rel="noopener noreferrer" >Instagram</a>
+          <a href="https://github.com/BobochD-Brew" target="_blank" rel="noopener noreferrer" >Github</a>
+          <a href="https://etherscan.io/address/0xe8F4ce88ea2AE400f1B57739483B6B4C16A08e81" target="_blank" rel="noopener noreferrer" >bobochdbrew.eth</a>
         </div>
       </main>
 
