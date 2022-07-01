@@ -13,7 +13,7 @@ const OGCard = (props) => {
             <a href={props.link} target="_blank" rel="noopener noreferrer" style={{}}>
                 <div className="flex h-full flex-col items-center p-5">
                     <h1 className="font-bold text-xl mb-5">{props.text}</h1>
-                    <img src={props.image} className="h-[80%] rounded-[20px]" style={{
+                    <img src={props.image} className="h-[80%] w-auto rounded-[20px]" style={{
                         border: "#000613 solid 3px",
                         objectFit: "cover",
                         boxShadow: "0 0 10px #222",
