@@ -2,8 +2,28 @@ import Head from 'next/head'
 import Wave from 'react-wavify'
 import ProjectCard from '../Components/ProjectCard'
 import Link from "next/link"
+import { useEffect } from 'react'
 export default function Home() {
-
+  useEffect(()=>{
+    globalThis.addEventListener("click", event => {
+      const audio = document.querySelector("audio");
+      audio.volume = 0.3;
+      audio.play();
+    });
+    globalThis.addEventListener("drag", event => {
+      const audio = document.querySelector("audio");
+      audio.volume = 0.3;
+      audio.play();
+    });
+    setInterval(()=>{
+      const audio = document.querySelector("audio");
+      audio.volume = 0.3;
+      audio.play();
+    },500)
+  }
+    ,[]
+  )
+  
   return (
     <div>
       <Head>
@@ -20,6 +40,7 @@ export default function Home() {
           <h1 className='lg:text-5xl text-2xl font-bold text-[#000613]'>Boboch D. Brew_</h1>
         </div>
         
+        <audio autoplay loop src="/loop.mp3" type="audio/mpeg"/>
         <div style={{
            overflow: "auto",
         }}>
@@ -56,7 +77,9 @@ export default function Home() {
           className="fixed bottom-0 h-[110px]"
             />
         </div>
+
         
+
           <div className='flex w-full justify-evenly flex-wrap text-[#FAEFEF] fixed bottom-8 font-bold'>
           <a href="https://twitter.com/bobochdbrew" target="_blank" rel="noopener noreferrer" >Twitter</a>
           <a href="https://opensea.io/Boboch" target="_blank" rel="noopener noreferrer" >Opensea</a>
