@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Wave from 'react-wavify'
 import ProjectCard from '../Components/ProjectCard'
 import Link from "next/link"
-import '../styles/globals.css'
 export default function Home() {
 
   return (
