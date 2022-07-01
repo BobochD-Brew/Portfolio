@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Wave from 'react-wavify'
 import ProjectCard from '../Components/ProjectCard'
 import Link from "next/link"
