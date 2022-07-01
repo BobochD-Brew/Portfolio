@@ -5,8 +5,9 @@ const OGCard = (props) => {
         border: "#000613 solid 3px",
         borderRadius: "25px",
         boxShadow: "0 0 15px #222",
+        backgroundColor: "#FAEFEF"
       } 
-      let cardClass = "bg-[#FAEFEF] h-[calc(70vh-100px)] duration-300 w-[40vh] hover:w-[60vh]"
+      let cardClass = "h-[calc(70vh-100px)] duration-300 w-[40vh] hover:w-[60vh]"
     return(
         <div className={cardClass} style={cardStyle}>
             
