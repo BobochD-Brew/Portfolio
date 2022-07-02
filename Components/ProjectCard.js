@@ -10,6 +10,10 @@ const OGCard = (props) => {
       } 
       let cardClass = "duration-300 w-[40vh] hover:w-[60vh]"
     return(
+        <>
+        <div className="w-10 h-0" style={{
+            border:"#000 solid 2px"
+        }}></div>
         <div className={cardClass} style={cardStyle}>
             
             <a href={props.link} target="_blank" rel="noopener noreferrer" style={{}}>
@@ -23,6 +27,9 @@ const OGCard = (props) => {
                 </div>
             </a>
         </div>
+        
+        </>
+        
     )
  }  
 

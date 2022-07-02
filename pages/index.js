@@ -36,6 +36,7 @@ export default function Home() {
         <div className="w-full flex flex-wrap justify-start ml-5 mt-5 items-center space-x-5 lg:space-x-10 ">
           <Link href="/"><img className="lg:h-20 h-10 rounded-[50px]" style={{
             boxShadow: "0 0 10px #222",
+            border:"#000 solid 3px"
           }} src="https://pbs.twimg.com/profile_images/1536514697347858433/HdHKYATh_400x400.jpg"></img></Link>
           <h1 className='lg:text-5xl text-2xl font-bold text-[#000613]'>Boboch D. Brew_</h1>
         </div>
@@ -44,14 +45,15 @@ export default function Home() {
         <div style={{
            overflow: "auto",
         }}>
-          <div className='flex justify-start space-x-10 text-[#000613] m-5' style={{
+          <div className='flex justify-start space-x-0 text-[#000613] m-5 items-center' style={{
             minWidth: "-webkit-min-content",
           }}>
+            <div className='mr-[-15px] text-3xl z-20 mt-[3px]'>⏳</div>
             <ProjectCard text="Card 10" link="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/105369117006084633903751782557553396941953685787847558065691149572512579321857" image="https://lh3.googleusercontent.com/cOu9HzXoZ5uJbxfeBnOQWiobfWoIA_XJFB_6F4C1m6EwZGiensu60omRhQ5Xtt_h-Y_gUC41w-Nnz59B2Ve_ZFs_TQqnNzpUHJ-sAQ=w600" />
             <ProjectCard text="Boboch's Loft" link="https://oncyber.io/boboch" image="oncyber.gif" />
             <ProjectCard text="VRF Contract Use" link="https://polygonscan.com/address/0x9c56c03a64ec4d81f549c900fb235b31b1390fe2#code" image="chainlink.PNG" />
             <ProjectCard text="Crypto Flows" link="https://opensea.io/collection/crypto-flows" image="https://lh3.googleusercontent.com/t6b9VECCAK4zFrRknJeQ4VarTMJO6kMgcYIGDlH8tUsSoGmekjOBtIfq7qmuzmcbLBZlaxtc7AGCr1PsizM7eXdINH_o1TIWUbPK=s0" />
-            <ProjectCard text="HODLHQ Website" link="https://hodlhq.xyz" image="hodlhq.png" />
+            <ProjectCard text="HODLHQ Website" link="https://hodlhq.xyz" image="hodlhq.PNG" />
             <ProjectCard text="NFTV Broadcaster" link="https://opensea.io/collection/nftvplayer" image="https://lh3.googleusercontent.com/v8L0gSSQtRe8AtL5IQQh_VABnUcKQvHnnYWRSRh6TFv81-OoGbC5moe3tAuY1c9AU8Qe-4EbNfcmNcf17KZisy8a9YcIIIHKBm8WB0U=w199" />
             <ProjectCard text="Juice Crew Game" link="http://play.juicecrewnft.com" image="juice.gif" />
             <ProjectCard text="Rooftop Skin" link="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/105369117006084633903751782557553396941953685787847558065691149620891090944200" image="rooftop.gif" />
