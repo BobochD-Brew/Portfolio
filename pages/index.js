@@ -30,7 +30,8 @@ export default function Home() {
         <title>Boboch D. Brew</title>
         <meta name="description" content="Boboch D. Brew's Portfolio, this is my website here you can see all my works" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@boboch.tk" />
+        <meta name="twitter:site" content="@bobochdbrew" />
+        <meta name="twitter:creator" content="@bobochdbrew" />
         <meta name="twitter:title" content="Boboch D. Brew" />
         <meta name="twitter:description" content="Portfolio" />
         <meta name="twitter:image" content="https://boboch.tk/Capture.PNG" />
