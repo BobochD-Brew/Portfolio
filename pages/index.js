@@ -33,7 +33,7 @@ export default function Home() {
         <meta name="twitter:site" content="@boboch.tk" />
         <meta name="twitter:title" content="Boboch D. Brew" />
         <meta name="twitter:description" content="Portfolio" />
-        <meta name="twitter:image" content="Capture.PNG" />
+        <meta name="twitter:image" content="https://boboch.tk/Capture.PNG" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
