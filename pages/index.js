@@ -69,7 +69,7 @@ export default function Home() {
             <ProjectCard text="NFT Bulksender" link="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/105369117006084633903751782557553396941953685787847558065691149619791579317224" image="https://lh3.googleusercontent.com/Y_ILLR5E5HbVaq87Kokq1I6_SsW7ahid6yh658gzlDPCK3FfB2jNJjxRWW3rUOMoaqO2Um6C07ki0RMdWXMkPqoJSd11nHwyCjrdkA=w600" />
             <ProjectCard text="Surfboards" link="https://opensea.io/collection/podmarket?search[sortBy]=PRICE&search[sortAscending]=true&search[query]=surf" image="surf.gif" />
             <ProjectCard text="Pod Market @HQ" maxSize="30" link="https://opensea.io/collection/podmarket" image="podmarket.gif" />
-            <ProjectCard text="Boboch's Cards" link="https://opensea.io/collection/boboch" image="desk.png" />
+            <ProjectCard text="Boboch's Cards" link="https://opensea.io/collection/boboch" image="hands.gif" />
             <ProjectCard text="Silent Escape" image="silent.gif" link="https://boboch-d-brew.itch.io/silent-escape"/>
             <ProjectCard text="Sky Dasher" link="https://play.google.com/store/apps/details?id=com.IOniverse.SkyDasher&hl=en&gl=US" image="skydasher.gif" />
             <ProjectCard text="Anarchie Craft (Closed)" link="https://twitter.com/anarchiecraft" image="acc.jfif" />
