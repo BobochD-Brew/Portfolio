@@ -51,7 +51,7 @@ export default function Home() {
             <ProjectCard text="Boboch's Loft" link="https://oncyber.io/boboch" image="oncyber.gif" />
             <ProjectCard text="VRF Contract Use" link="https://polygonscan.com/address/0x9c56c03a64ec4d81f549c900fb235b31b1390fe2#code" image="chainlink.PNG" />
             <ProjectCard text="Crypto Flows" link="https://opensea.io/collection/crypto-flows" image="https://lh3.googleusercontent.com/t6b9VECCAK4zFrRknJeQ4VarTMJO6kMgcYIGDlH8tUsSoGmekjOBtIfq7qmuzmcbLBZlaxtc7AGCr1PsizM7eXdINH_o1TIWUbPK=s0" />
-            <ProjectCard text="HODLHQ Website" link="https://hodlhq.xyz" image="hodlhq.PNG" />
+            <ProjectCard text="HODLHQ Website" link="https://hodlhq.xyz" image="hodlhq.png" />
             <ProjectCard text="NFTV Broadcaster" link="https://opensea.io/collection/nftvplayer" image="https://lh3.googleusercontent.com/v8L0gSSQtRe8AtL5IQQh_VABnUcKQvHnnYWRSRh6TFv81-OoGbC5moe3tAuY1c9AU8Qe-4EbNfcmNcf17KZisy8a9YcIIIHKBm8WB0U=w199" />
             <ProjectCard text="Juice Crew Game" link="http://play.juicecrewnft.com" image="juice.gif" />
             <ProjectCard text="Rooftop Skin" link="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/105369117006084633903751782557553396941953685787847558065691149620891090944200" image="rooftop.gif" />
