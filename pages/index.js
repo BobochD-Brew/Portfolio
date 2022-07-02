@@ -40,7 +40,7 @@ export default function Home() {
           <h1 className='lg:text-5xl text-2xl font-bold text-[#000613]'>Boboch D. Brew_</h1>
         </div>
         
-        <audio autoplay loop src="/loop.mp3" type="audio/mpeg"/>
+        <audio autoPlay loop src="/loop.mp3" type="audio/mpeg"/>
         <div style={{
            overflow: "auto",
         }}>
