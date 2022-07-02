@@ -29,6 +29,11 @@ export default function Home() {
       <Head>
         <title>Boboch D. Brew</title>
         <meta name="description" content="Boboch D. Brew's Portfolio, this is my website here you can see all my works" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@boboch.tk" />
+        <meta name="twitter:title" content="Boboch D. Brew" />
+        <meta name="twitter:description" content="Portfolio" />
+        <meta name="twitter:image" content="Capture.PNG" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -51,15 +56,15 @@ export default function Home() {
             <div className='mr-[-15px] text-3xl z-20 mt-[3px]'>⏳</div>
             <ProjectCard text="Card 10" link="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/105369117006084633903751782557553396941953685787847558065691149572512579321857" image="https://lh3.googleusercontent.com/cOu9HzXoZ5uJbxfeBnOQWiobfWoIA_XJFB_6F4C1m6EwZGiensu60omRhQ5Xtt_h-Y_gUC41w-Nnz59B2Ve_ZFs_TQqnNzpUHJ-sAQ=w600" />
             <ProjectCard text="Boboch's Loft" link="https://oncyber.io/boboch" image="oncyber.gif" />
-            <ProjectCard text="VRF Contract Use" link="https://polygonscan.com/address/0x9c56c03a64ec4d81f549c900fb235b31b1390fe2#code" image="chainlink.PNG" />
             <ProjectCard text="Crypto Flows" link="https://opensea.io/collection/crypto-flows" image="https://lh3.googleusercontent.com/t6b9VECCAK4zFrRknJeQ4VarTMJO6kMgcYIGDlH8tUsSoGmekjOBtIfq7qmuzmcbLBZlaxtc7AGCr1PsizM7eXdINH_o1TIWUbPK=s0" />
-            <ProjectCard text="HODLHQ Website" link="https://hodlhq.xyz" image="hodlhq.PNG" />
+            <ProjectCard text="Anime Skin" link="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/105369117006084633903751782557553396941953685787847558065691149585706718855368" image="animeskin.gif" />
             <ProjectCard text="NFTV Broadcaster" link="https://opensea.io/collection/nftvplayer" image="https://lh3.googleusercontent.com/v8L0gSSQtRe8AtL5IQQh_VABnUcKQvHnnYWRSRh6TFv81-OoGbC5moe3tAuY1c9AU8Qe-4EbNfcmNcf17KZisy8a9YcIIIHKBm8WB0U=w199" />
+            <ProjectCard text="HODLHQ Website" link="https://hodlhq.xyz" image="hodlhq.PNG" />
+            <ProjectCard text="VRF Contract Use" link="https://polygonscan.com/address/0x9c56c03a64ec4d81f549c900fb235b31b1390fe2#code" image="chainlink.PNG" />
             <ProjectCard text="Juice Crew Game" link="http://play.juicecrewnft.com" image="juice.gif" />
             <ProjectCard text="Rooftop Skin" link="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/105369117006084633903751782557553396941953685787847558065691149620891090944200" image="rooftop.gif" />
             <ProjectCard text="Backdoors" link="https://opensea.io/collection/boboch?search[query]=Backdoor&search[sortAscending]=true&search[sortBy]=PRICE" image="backdoor.png" />
             <ProjectCard text="Color Wave" link="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/105369117006084633903751782557553396941953685787847558065691149626388649082895" image="colorsurf.gif" />
-            <ProjectCard text="Anime Skin" link="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/105369117006084633903751782557553396941953685787847558065691149585706718855368" image="animeskin.gif" />
             <ProjectCard text="NFT Bulksender" link="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/105369117006084633903751782557553396941953685787847558065691149619791579317224" image="https://lh3.googleusercontent.com/Y_ILLR5E5HbVaq87Kokq1I6_SsW7ahid6yh658gzlDPCK3FfB2jNJjxRWW3rUOMoaqO2Um6C07ki0RMdWXMkPqoJSd11nHwyCjrdkA=w600" />
             <ProjectCard text="Surfboards" link="https://opensea.io/collection/podmarket?search[sortBy]=PRICE&search[sortAscending]=true&search[query]=surf" image="surf.gif" />
             <ProjectCard text="Pod Market @HQ" maxSize="30" link="https://opensea.io/collection/podmarket" image="podmarket.gif" />
