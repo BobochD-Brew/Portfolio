@@ -6,9 +6,9 @@ const OGCard = (props) => {
         borderRadius: "25px",
         boxShadow: "0 0 15px #222",
         backgroundColor: "#FAEFEF",
-        height: "calc(70vh - 100px)"
+        height: "calc(70vh - 150px)"
       } 
-      let cardClass = "duration-300 w-[40vh] hover:w-[60vh]"
+      let cardClass = "duration-300 w-[35vh] hover:w-[50vh]"
     return(
         <>
         <div className="w-10 h-0" style={{
@@ -17,9 +17,10 @@ const OGCard = (props) => {
         <div className={cardClass} style={cardStyle}>
             
             <a href={props.link} target="_blank" rel="noopener noreferrer" style={{}}>
-                <div className="flex h-full flex-col items-center p-5">
-                    <h1 className="font-bold text-xl mb-5">{props.text}</h1>
-                    <img src={props.image} className="h-[80%] w-auto rounded-[20px]" style={{
+                <div className="flex h-full flex-col items-center pl-5 pr-5 pb-5 pt-2">
+                    <h1 className="font-bold text-lg h-[28px] mb-0 whitespace-nowrap">{props.text}</h1>
+                    <h1 className="font-black text-base mb-2">{props.date}</h1>
+                    <img src={props.image} className="h-[75%] w-auto rounded-[20px]" style={{
                         border: "#000613 solid 3px",
                         objectFit: "cover",
                         boxShadow: "0 0 10px #222",
