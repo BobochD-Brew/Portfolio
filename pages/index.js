@@ -95,7 +95,7 @@ export default function Home() {
           <div className='flex justify-start space-x-0 text-[#000613] m-5 items-center' style={{
             minWidth: "-webkit-min-content",
           }}>
-            <div className='mr-[-15px] text-3xl z-20 mt-[3px]'>⏳</div>
+            <div className='mr-[-15px] text-3xl z-20 mt-[3px]'>💻</div>
             <div className="w-5 h-0" style={{
             border:"#000 solid 2px",
             
