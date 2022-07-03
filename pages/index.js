@@ -74,7 +74,9 @@ export default function Home() {
             <div className='mr-[-15px] text-3xl z-20 mt-[3px]'>⏳</div>
             <ProjectCard date="07/2022" text="Card 10" link="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/105369117006084633903751782557553396941953685787847558065691149572512579321857" image="https://lh3.googleusercontent.com/cOu9HzXoZ5uJbxfeBnOQWiobfWoIA_XJFB_6F4C1m6EwZGiensu60omRhQ5Xtt_h-Y_gUC41w-Nnz59B2Ve_ZFs_TQqnNzpUHJ-sAQ=w600" />
             <ProjectCard date="06/2022" text="Boboch's Loft" link="https://oncyber.io/boboch" image="oncyber.gif" />
-            <ProjectCard date="03/2022" text="Crypto Flows" link="https://opensea.io/collection/crypto-flows" image="https://lh3.googleusercontent.com/t6b9VECCAK4zFrRknJeQ4VarTMJO6kMgcYIGDlH8tUsSoGmekjOBtIfq7qmuzmcbLBZlaxtc7AGCr1PsizM7eXdINH_o1TIWUbPK=s0" />
+            <ProjectCard date="03/2022" text="Crypto Flows" link="https://opensea.io/collection/crypto-flows" image="https://lh3.googleusercontent.com/t6b9VECCAK4zFrRknJeQ4VarTMJO6kMgcYIGDlH8tUsSoGmekjOBtIfq7qmuzmcbLBZlaxtc7AGCr1PsizM7eXdINH_o1TIWUbPK=s0" >
+              <iframe src={"https://bobochd-brew.github.io/Crypto-Flow-Htmls/"+(Math.floor(Math.random() * (100 - 0 + 1)) + 0)+".html"} width="100%" height="100%" frameBorder="0">Browser not compatible.</iframe>
+            </ProjectCard>
             <ProjectCard date="03/2022" text="Anime Skin" link="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/105369117006084633903751782557553396941953685787847558065691149585706718855368" image="animeskin.gif" />
             <ProjectCard date="06/2022" text="NFTV Broadcaster" link="https://opensea.io/collection/nftvplayer" image="https://lh3.googleusercontent.com/v8L0gSSQtRe8AtL5IQQh_VABnUcKQvHnnYWRSRh6TFv81-OoGbC5moe3tAuY1c9AU8Qe-4EbNfcmNcf17KZisy8a9YcIIIHKBm8WB0U=w199" />
             <ProjectCard date="06/2022" text="HODLHQ Website" link="https://hodlhq.xyz" image="hodlhq.PNG" />
@@ -89,7 +91,7 @@ export default function Home() {
             <ProjectCard date="07/2021" text="Boboch's Cards" link="https://opensea.io/collection/boboch" image="hands.gif" />
             <ProjectCard date="11/2021" text="Silent Escape" image="silent.gif" link="https://boboch-d-brew.itch.io/silent-escape"/>
             <ProjectCard date="08/2020" text="Sky Dasher" link="https://play.google.com/store/apps/details?id=com.IOniverse.SkyDasher&hl=en&gl=US" image="skydasher.gif" />
-            <ProjectCard date="12/2019" text="Anarchie Craft (Closed)" link="https://twitter.com/anarchiecraft" image="acc.jfif" />
+            <ProjectCard date="12/2019" text="AnarchieCraft ❌" link="https://twitter.com/anarchiecraft" image="acc.jfif" />
             
           </div>
           <div className='flex justify-start space-x-0 text-[#000613] m-5 items-center' style={{

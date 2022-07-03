@@ -20,11 +20,24 @@ const OGCard = (props) => {
                 <div className="flex h-full flex-col items-center pl-5 pr-5 pb-5 pt-2">
                     <h1 className="font-bold text-lg h-[28px] mb-0 whitespace-nowrap">{props.text}</h1>
                     <h1 className="font-black text-base mb-2">{props.date}</h1>
-                    <img src={props.image} className="h-[75%] w-auto rounded-[20px]" style={{
-                        border: "#000613 solid 3px",
-                        objectFit: "cover",
-                        boxShadow: "0 0 10px #222",
-                    }}/>
+                    {
+                        props.children != undefined ?
+                     
+                        <div className="h-[75%] w-auto rounded-[20px]" style={{
+                            border: "#000613 solid 3px",
+                            objectFit: "cover",
+                            boxShadow: "0 0 10px #222",
+                            overflow: "hidden"
+                        }}>{props.children}</div>
+                     
+                         :
+                         <img src={props.image} className="h-[75%] w-auto rounded-[20px]" style={{
+                            border: "#000613 solid 3px",
+                            objectFit: "cover",
+                            boxShadow: "0 0 10px #222",
+                        }}/>
+                    }
+                    
                 </div>
             </a>
         </div>
