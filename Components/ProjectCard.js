@@ -6,14 +6,14 @@ const OGCard = (props) => {
         border: "#000613 solid 3px",
         borderRadius: "25px",
         boxShadow: "0 0 15px #222",
-        backgroundColor: "#FAEFEF",
+       
         height: "calc(70vh - 150px)"
       } 
-      let cardClass = "duration-300 w-[35vh]" + (props.noScale ? "" : " hover:w-[50vh]")
+      let cardClass = "duration-300 w-[35vh] bg-[#FAEFEF] lg:hover:bg-[#000613] lg:hover:text-[#FAEFEF]" + (props.noScale ? "" : " lg:hover:w-[50vh]")
     return(
         <>
         <div className="w-10 h-0" style={{
-            border:"#000 solid 2px"
+            border:"#000613 solid 2px"
         }}></div>
         <div className={cardClass} style={cardStyle}>
             {popuped == 1 ? <div className={props.oOo ? 
@@ -59,14 +59,14 @@ const OGCard = (props) => {
                         <div className="h-[75%] w-auto rounded-[20px]" style={{
                             border: "#000613 solid 3px",
                             objectFit: "cover",
-                            boxShadow: "0 0 10px #222",
+                            boxShadow: "0 0 10px #000613",
                             overflow: "hidden"
                         }}>{props.children}</div>
                          :
                          <img src={props.image} className="h-[75%] w-auto rounded-[20px]" style={{
                             border: "#000613 solid 3px",
                             objectFit: "cover",
-                            boxShadow: "0 0 10px #222",
+                            boxShadow: "0 0 10px #000613",
                         }}/>
                     }
                     

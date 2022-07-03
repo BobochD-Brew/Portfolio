@@ -6,14 +6,13 @@ const SKillCard = (props) => {
         border: "#000613 solid 3px",
         borderRadius: "10px",
         boxShadow: "0 0 15px #222",
-        backgroundColor: "#FAEFEF"
       } 
-      let cardClass = "min-w-[2.75rem] max-w-[16rem] p-2 h-11 flex flex-col justify-center items-center"
+      let cardClass = "duration-300 min-w-[2.75rem] bg-[#FAEFEF] hover:bg-[#000613] hover:text-[#FAEFEF] max-w-[16rem] p-2 h-11 flex flex-col justify-center items-center"
     return(
         
         <>
         <div className="w-5 h-0" style={{
-            border:"#000 solid 2px"
+            border:"#000613 solid 2px"
         }}></div>
         <a href={props.iframe ? undefined : props.link } onClick={(event,element)=>{
                 if (event.target.src?.split('/')?.pop() == "close.png") {
