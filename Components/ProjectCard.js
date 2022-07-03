@@ -16,9 +16,9 @@ const OGCard = (props) => {
         }}></div>
         <div className={cardClass} style={cardStyle}>
             {popuped == 1 ? <div className={props.oOo ? 
-            "mt-5 mb-5 relative ml-[calc(50vw-min(100vh-2.5rem,100vw-2.5rem)/2)] h-[calc(min(100vh-2.5rem,100vw-2.5rem))] w-[calc(min(100vh-2.5rem,100vw-2.5rem))]"
+            "iframeWrapper mt-5 mb-5 relative ml-[calc(50vw-min(100vh-2.5rem,100vw-2.5rem)/2)] h-[calc(min(100vh-2.5rem,100vw-2.5rem))] w-[calc(min(100vh-2.5rem,100vw-2.5rem))]"
             : 
-            "m-5 relative h-[calc(100vh-2.5rem)] w-[calc(100vw-2.5rem)]"} style={{
+            "iframeWrapper m-5 relative h-[calc(100vh-2.5rem)] w-[calc(100vw-2.5rem)]"} style={{
                 position: "fixed",
                 left:"0",
                 zIndex:"5000",
@@ -28,6 +28,7 @@ const OGCard = (props) => {
                 boxShadow: "0 0 15px #222",
                 backgroundColor: "#FAEFEF",
                 overflow: "hidden",
+                
             }}>
                 <a onClick={()=>{
                     setPopuped(0)

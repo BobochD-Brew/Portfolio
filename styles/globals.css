@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.iframeWapper{
+  overflow: hidden;
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+}
 
 html,
 body {

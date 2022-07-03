@@ -70,7 +70,7 @@ export default function Home() {
             <ProjectCard iframe={true} noScale={true} date="07/2022" text="Card 10" link="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/105369117006084633903751782557553396941953685787847558065691149572512579321857" image="https://lh3.googleusercontent.com/cOu9HzXoZ5uJbxfeBnOQWiobfWoIA_XJFB_6F4C1m6EwZGiensu60omRhQ5Xtt_h-Y_gUC41w-Nnz59B2Ve_ZFs_TQqnNzpUHJ-sAQ=w600" />
             <ProjectCard iframe={true} date="06/2022" text="Boboch's Loft" link="https://oncyber.io/boboch" image="oncyber.gif" />
             <ProjectCard iframe={true} noScale={true} date="03/2022" text="Crypto Flows" link="https://opensea.io/collection/crypto-flows" image="https://lh3.googleusercontent.com/t6b9VECCAK4zFrRknJeQ4VarTMJO6kMgcYIGDlH8tUsSoGmekjOBtIfq7qmuzmcbLBZlaxtc7AGCr1PsizM7eXdINH_o1TIWUbPK=s0" >
-              <div className='w-full h-full relative'>
+              <div className='iframeWrapper w-full h-full relative'>
                 <img src="dice.png" className="w-8 h-8 m-1 absolute cursor-pointer" onClick={()=>{
                   setRandomState( (Math.floor(Math.random() * (100 - 0 + 1)) + 0))
                 }}style={{
@@ -84,7 +84,7 @@ export default function Home() {
               </div>
             </ProjectCard>
             <ProjectCard iframe={true} noScale={true} oOo={true} date="pending" text="Color Ecosystem" link={"https://bobochd-brew.github.io/Color-Ecosystem/index.html?id="+randomState+""}image="https://lh3.googleusercontent.com/t6b9VECCAK4zFrRknJeQ4VarTMJO6kMgcYIGDlH8tUsSoGmekjOBtIfq7qmuzmcbLBZlaxtc7AGCr1PsizM7eXdINH_o1TIWUbPK=s0" >
-              <div className='w-full h-full relative'>
+              <div className='iframeWrapper w-full h-full relative'>
               <img src="dice.png" className="w-8 h-8 m-1 absolute cursor-pointer" onClick={()=>{
                   setRandomState( (Math.floor(Math.random() * (100 - 0 + 1)) + 0))
                 }}style={{
@@ -148,7 +148,7 @@ export default function Home() {
             <SkillCard iframe={true} text="Game Maker" link="https://gamemaker.io/en/blog/gamemaker-studio-1-dot-4-9999-released"/>
             <SkillCard iframe={true} text="GDevelop" link="https://gdevelop.io"/>
             <SkillCard iframe={true} text="Rpg Maker" link="https://www.rpgmakerweb.com/products/rpg-maker-2003"/>
-            <SkillCard text="Hello World"/>
+            <SkillCard text="Hello World" link="https://www.google.com/maps/place/Marrakech"/>
           </div>
           </div>
           </div>
