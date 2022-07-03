@@ -101,8 +101,8 @@ export default function Home() {
             
         }}></div>
             <SkillCard text="Next.js" link="https://nextjs.org"/>
-            <SkillCard text="C" link="https://en.wikipedia.org/wiki/C_(programming_language)"/>
             <SkillCard text="Web3.js" link="https://web3js.readthedocs.io/en/v1.7.4/"/>
+            <SkillCard text="C" link="https://en.wikipedia.org/wiki/C_(programming_language)"/>
             <SkillCard text="Solidity" link="https://docs.soliditylang.org/en/v0.8.15/"/>
             <SkillCard text="Node.js" link="https://nodejs.org/en/"/>
             <SkillCard text="OCaml" link="https://ocaml.org"/>
