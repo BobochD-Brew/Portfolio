@@ -15,6 +15,7 @@ body {
   background-position: top center;
   height: 100%;
   overflow: hidden;
+  min-height: -webkit-fill-available
 }
 
 a {
