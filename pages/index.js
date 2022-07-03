@@ -63,7 +63,7 @@ export default function Home() {
         }}>
            <div style={{
             }}>
-          <div className='flex justify-start space-x-0 text-[#000613] m-5 items-center' style={{
+          <div className='flex justify-start space-x-0 text-[#000613] m-5 items-center mr-10' style={{
             minWidth: "-webkit-min-content",
             }}>
             <div className='mr-[-15px] text-3xl z-20 mt-[3px]'>⏳</div>
@@ -112,7 +112,7 @@ export default function Home() {
             <ProjectCard date="11/2021" text="Silent Escape" image="silent.gif" link="https://boboch-d-brew.itch.io/silent-escape"/>
             <ProjectCard noScale={true} date="08/2020" text="Sky Dasher" link="https://play.google.com/store/apps/details?id=com.IOniverse.SkyDasher&hl=en&gl=US" image="skydasher.gif" />
             <ProjectCard noScale={true} date="12/2019" text="AnarchieCraft ❌" link="https://twitter.com/anarchiecraft" image="acc.jfif" />
-            
+            <div className='w-20'></div>
           </div>
           <div className='flex justify-start space-x-0 text-[#000613] m-5 items-center' style={{
             minWidth: "-webkit-min-content",

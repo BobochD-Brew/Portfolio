@@ -59,13 +59,21 @@ const OGCard = (props) => {
                             border: "#000613 solid 3px",
                             objectFit: "cover",
                             boxShadow: "0 0 10px #000613",
-                            overflow: "hidden"
+                            overflow: "hidden",
+                            backgroundImage: 'url("loading.gif")',
+                            backgroundPosition: "center center",
+                            backgroundSize: "50%",
+                            backgroundRepeat: "no-repeat"
                         }}>{props.children}</div>
                          :
                          <img src={props.image} className="h-[75%] w-auto rounded-[20px]" style={{
                             border: "#000613 solid 3px",
                             objectFit: "cover",
                             boxShadow: "0 0 10px #000613",
+                            backgroundImage: 'url("loading.gif")',
+                            backgroundPosition: "center center",
+                            backgroundSize: "50%",
+                            backgroundRepeat: "no-repeat"
                         }}/>
                     }
                     
