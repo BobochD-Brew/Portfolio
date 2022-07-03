@@ -6,7 +6,6 @@ const OGCard = (props) => {
         border: "#000613 solid 3px",
         borderRadius: "25px",
         boxShadow: "0 0 15px #222",
-       
         height: "calc(70vh - 150px)"
       } 
       let cardClass = "duration-300 w-[35vh] bg-[#FAEFEF] lg:hover:bg-[#000613] lg:hover:text-[#FAEFEF]" + (props.noScale ? "" : " lg:hover:w-[50vh]")

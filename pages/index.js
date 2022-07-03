@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Wave from 'react-wavify'
 import ProjectCard from '../Components/ProjectCard'
 import SkillCard from '../Components/SkillCard'
+import Title from '../Components/Title'
 import Link from "next/link"
 import { useEffect, useState } from 'react'
 export default function Home() {
@@ -22,11 +23,12 @@ export default function Home() {
       audio.volume = 0.3;
       audio.play();
     });
-    setInterval(()=>{
+    let a = setInterval(()=>{
       const audio = document.querySelector("audio");
       audio.volume = 0.3;
       audio.play();
-    },500)
+    },2000)
+    return(()=>{clearInterval(a)})
   }
     ,[]
   )
@@ -50,7 +52,7 @@ export default function Home() {
             boxShadow: "0 0 10px #222",
             border:"#000 solid 3px"
           }} src="https://pbs.twimg.com/profile_images/1536514697347858433/HdHKYATh_400x400.jpg"></img></Link>
-          <h1 className='lg:text-5xl text-2xl font-bold text-[#000613]'>Boboch D. Brew_</h1>
+          <Title/>
         </div>
         <audio autoPlay loop src="/loop.mp3" type="audio/mpeg"/>
         <div style={{
