@@ -8,13 +8,16 @@ const OGCard = (props) => {
         boxShadow: "0 0 15px #222",
         height: "calc(70vh - 150px)"
       } 
-      let cardClass = "duration-300 w-[35vh] bg-[#FAEFEF] lg:hover:bg-[#000613] lg:hover:text-[#FAEFEF]" + (props.noScale ? "" : " lg:hover:w-[50vh]")
+      let cardClass = "duration-300 w-[35vh] relative bg-[#FAEFEF] lg:hover:bg-[#000613] lg:hover:text-[#FAEFEF]" + (props.noScale ? "" : " lg:hover:w-[50vh]")
     return(
         <>
         <div className="w-10 h-0" style={{
             border:"#000613 solid 2px"
         }}></div>
         <div className={cardClass} style={cardStyle}>
+            <center><h1 className="absolute font-bold w-full text-sm mt-[-3px]" style={{
+               
+            }}>{props.type}</h1></center>
             {popuped == 1 ? <div className={props.oOo ? 
             "iframeWrapper mt-5 mb-5 relative ml-[calc(50vw-min(100vh-2.5rem,100vw-2.5rem)/2)] h-[calc(min(100vh-2.5rem,100vw-2.5rem))] w-[calc(min(100vh-2.5rem,100vw-2.5rem))]"
             : 

@@ -67,9 +67,9 @@ export default function Home() {
             minWidth: "-webkit-min-content",
             }}>
             <div className='mr-[-15px] text-3xl z-20 mt-[3px]'>⏳</div>
-            <ProjectCard iframe={true} noScale={true} date="07/2022" text="Card 10" link="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/105369117006084633903751782557553396941953685787847558065691149572512579321857" image="https://lh3.googleusercontent.com/cOu9HzXoZ5uJbxfeBnOQWiobfWoIA_XJFB_6F4C1m6EwZGiensu60omRhQ5Xtt_h-Y_gUC41w-Nnz59B2Ve_ZFs_TQqnNzpUHJ-sAQ=w600" />
-            <ProjectCard iframe={true} date="06/2022" text="Boboch's Loft" link="https://oncyber.io/boboch" image="oncyber.gif" />
-            <ProjectCard iframe={true} noScale={true} date="03/2022" text="Crypto Flows" link="https://opensea.io/collection/crypto-flows" image="https://lh3.googleusercontent.com/t6b9VECCAK4zFrRknJeQ4VarTMJO6kMgcYIGDlH8tUsSoGmekjOBtIfq7qmuzmcbLBZlaxtc7AGCr1PsizM7eXdINH_o1TIWUbPK=s0" >
+            <ProjectCard type={"ERC721"} iframe={true} noScale={true} date="07/2022" text="Card 10" link="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/105369117006084633903751782557553396941953685787847558065691149572512579321857" image="https://lh3.googleusercontent.com/cOu9HzXoZ5uJbxfeBnOQWiobfWoIA_XJFB_6F4C1m6EwZGiensu60omRhQ5Xtt_h-Y_gUC41w-Nnz59B2Ve_ZFs_TQqnNzpUHJ-sAQ=w600" />
+            <ProjectCard type={"Gallery"} iframe={true} date="06/2022" text="Boboch's Loft" link="https://oncyber.io/boboch" image="oncyber.gif" />
+            <ProjectCard type={"ERC721"}  iframe={true} noScale={true} date="03/2022" text="Crypto Flows" link="https://opensea.io/collection/crypto-flows" image="https://lh3.googleusercontent.com/t6b9VECCAK4zFrRknJeQ4VarTMJO6kMgcYIGDlH8tUsSoGmekjOBtIfq7qmuzmcbLBZlaxtc7AGCr1PsizM7eXdINH_o1TIWUbPK=s0" >
               <div className='iframeWrapper w-full h-full relative'>
                 <img src="dice.png" className="w-8 h-8 m-1 absolute cursor-pointer" onClick={()=>{
                   setRandomState( (Math.floor(Math.random() * (100 - 0 + 1)) + 0))
@@ -83,7 +83,7 @@ export default function Home() {
                 <iframe src={"https://bobochd-brew.github.io/Crypto-Flow-Htmls/"+randomState+".html"} width="100%" height="100%" frameBorder="0">Browser not compatible.</iframe>
               </div>
             </ProjectCard>
-            <ProjectCard iframe={true} noScale={true} oOo={true} date="pending" text="Color Ecosystem" link={"https://bobochd-brew.github.io/Color-Ecosystem/index.html?id="+randomState+""}image="https://lh3.googleusercontent.com/t6b9VECCAK4zFrRknJeQ4VarTMJO6kMgcYIGDlH8tUsSoGmekjOBtIfq7qmuzmcbLBZlaxtc7AGCr1PsizM7eXdINH_o1TIWUbPK=s0" >
+            <ProjectCard type={"ERC721"} iframe={true} noScale={true} oOo={true} date="pending" text="Color Ecosystem" link={"https://bobochd-brew.github.io/Color-Ecosystem/index.html?id="+randomState+""}image="https://lh3.googleusercontent.com/t6b9VECCAK4zFrRknJeQ4VarTMJO6kMgcYIGDlH8tUsSoGmekjOBtIfq7qmuzmcbLBZlaxtc7AGCr1PsizM7eXdINH_o1TIWUbPK=s0" >
               <div className='iframeWrapper w-full h-full relative'>
               <img src="dice.png" className="w-8 h-8 m-1 absolute cursor-pointer" onClick={()=>{
                   setRandomState( (Math.floor(Math.random() * (100 - 0 + 1)) + 0))
@@ -97,21 +97,21 @@ export default function Home() {
               <iframe src={"https://bobochd-brew.github.io/Color-Ecosystem/index.html?id="+randomState+""} width="100%" height="100%" frameBorder="0">Browser not compatible.</iframe>
               </div>
             </ProjectCard>
-            <ProjectCard iframe={true} date="03/2022" text="Anime Skin" link="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/105369117006084633903751782557553396941953685787847558065691149585706718855368" image="animeskin.gif" />
-            <ProjectCard noScale={true} iframe={true} date="06/2022" text="NFTV Broadcaster" link="https://opensea.io/collection/nftvplayer" image="https://lh3.googleusercontent.com/v8L0gSSQtRe8AtL5IQQh_VABnUcKQvHnnYWRSRh6TFv81-OoGbC5moe3tAuY1c9AU8Qe-4EbNfcmNcf17KZisy8a9YcIIIHKBm8WB0U=w199" />
-            <ProjectCard iframe={true} date="06/2022" text="HODLHQ Website" link="https://hodlhq.xyz" image="hodlhq.PNG" />
-            <ProjectCard noScale={true} date="06/2022" text="VRF Contract Use" link="https://polygonscan.com/address/0x9c56c03a64ec4d81f549c900fb235b31b1390fe2#code" image="chainlink.PNG" />
-            <ProjectCard noScale={true} iframe={true} date="04/2022" text="Juice Crew Game" link="http://play.juicecrewnft.com" image="juice.gif" />
-            <ProjectCard iframe={true} date="03/2022" text="Rooftop Skin" link="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/105369117006084633903751782557553396941953685787847558065691149620891090944200" image="rooftop.gif" />
-            <ProjectCard noScale={true} iframe={true} date="03/2022" text="Backdoors" link="https://opensea.io/collection/boboch?search[query]=Backdoor&search[sortAscending]=true&search[sortBy]=PRICE" image="backdoor.png" />
-            <ProjectCard noScale={true} iframe={true} date="03/2022" text="Color Wave" link="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/105369117006084633903751782557553396941953685787847558065691149626388649082895" image="colorsurf.gif" />
-            <ProjectCard noScale={true} iframe={true} date="03/2022" text="NFT Bulksender" link="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/105369117006084633903751782557553396941953685787847558065691149619791579317224" image="https://lh3.googleusercontent.com/Y_ILLR5E5HbVaq87Kokq1I6_SsW7ahid6yh658gzlDPCK3FfB2jNJjxRWW3rUOMoaqO2Um6C07ki0RMdWXMkPqoJSd11nHwyCjrdkA=w600" />
-            <ProjectCard iframe={true} date="02/2022" text="Surfboards" link="https://opensea.io/collection/podmarket?search[sortBy]=PRICE&search[sortAscending]=true&search[query]=surf" image="surf.gif" />
-            <ProjectCard iframe={true} date="02/2022" text="Pod Market @HQ" maxSize="30" link="https://opensea.io/collection/podmarket" image="podmarket.gif" />
-            <ProjectCard noScale={true} iframe={true} date="07/2021" text="Boboch's Cards" link="https://opensea.io/collection/boboch" image="hands.gif" />
-            <ProjectCard date="11/2021" text="Silent Escape" image="silent.gif" link="https://boboch-d-brew.itch.io/silent-escape"/>
-            <ProjectCard noScale={true} date="08/2020" text="Sky Dasher" link="https://play.google.com/store/apps/details?id=com.IOniverse.SkyDasher&hl=en&gl=US" image="skydasher.gif" />
-            <ProjectCard noScale={true} date="12/2019" text="AnarchieCraft ❌" link="https://twitter.com/anarchiecraft" image="acc.jfif" />
+            <ProjectCard type={"ERC1155"} iframe={true} date="03/2022" text="Anime Skin" link="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/105369117006084633903751782557553396941953685787847558065691149585706718855368" image="animeskin.gif" />
+            <ProjectCard type={"ERC721"} noScale={true} iframe={true} date="06/2022" text="NFTV Broadcaster" link="https://opensea.io/collection/nftvplayer" image="https://lh3.googleusercontent.com/v8L0gSSQtRe8AtL5IQQh_VABnUcKQvHnnYWRSRh6TFv81-OoGbC5moe3tAuY1c9AU8Qe-4EbNfcmNcf17KZisy8a9YcIIIHKBm8WB0U=w199" />
+            <ProjectCard type={"Web"} iframe={true} date="06/2022" text="HODLHQ Website" link="https://hodlhq.xyz" image="hodlhq.PNG" />
+            <ProjectCard type={"Solidity"} noScale={true} date="06/2022" text="VRF Contract Use" link="https://polygonscan.com/address/0x9c56c03a64ec4d81f549c900fb235b31b1390fe2#code" image="chainlink.PNG" />
+            <ProjectCard type={"Game"} noScale={true} iframe={true} date="04/2022" text="Juice Crew Game" link="http://play.juicecrewnft.com" image="juice.gif" />
+            <ProjectCard type={"ERC1155"} iframe={true} date="03/2022" text="Rooftop Skin" link="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/105369117006084633903751782557553396941953685787847558065691149620891090944200" image="rooftop.gif" />
+            <ProjectCard type={"ERC721"} noScale={true} iframe={true} date="03/2022" text="Backdoors" link="https://opensea.io/collection/boboch?search[query]=Backdoor&search[sortAscending]=true&search[sortBy]=PRICE" image="backdoor.png" />
+            <ProjectCard type={"ERC1155"} noScale={true} iframe={true} date="03/2022" text="Color Wave" link="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/105369117006084633903751782557553396941953685787847558065691149626388649082895" image="colorsurf.gif" />
+            <ProjectCard type={"ERC721"} noScale={true} iframe={true} date="03/2022" text="NFT Bulksender" link="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/105369117006084633903751782557553396941953685787847558065691149619791579317224" image="https://lh3.googleusercontent.com/Y_ILLR5E5HbVaq87Kokq1I6_SsW7ahid6yh658gzlDPCK3FfB2jNJjxRWW3rUOMoaqO2Um6C07ki0RMdWXMkPqoJSd11nHwyCjrdkA=w600" />
+            <ProjectCard type={"ERC1155"} iframe={true} date="02/2022" text="Surfboards" link="https://opensea.io/collection/podmarket?search[sortBy]=PRICE&search[sortAscending]=true&search[query]=surf" image="surf.gif" />
+            <ProjectCard type={"ERC1155"} iframe={true} date="02/2022" text="Pod Market @HQ" maxSize="30" link="https://opensea.io/collection/podmarket" image="podmarket.gif" />
+            <ProjectCard type={"ERC721"} noScale={true} iframe={true} date="07/2021" text="Boboch's Cards" link="https://opensea.io/collection/boboch" image="hands.gif" />
+            <ProjectCard type={"Game"} date="11/2021" text="Silent Escape" image="silent.gif" link="https://boboch-d-brew.itch.io/silent-escape"/>
+            <ProjectCard type={"Game"} noScale={true} date="08/2020" text="Sky Dasher" link="https://play.google.com/store/apps/details?id=com.IOniverse.SkyDasher&hl=en&gl=US" image="skydasher.gif" />
+            <ProjectCard type={"Server"} noScale={true} date="12/2019" text="AnarchieCraft ❌" link="https://twitter.com/anarchiecraft" image="acc.jfif" />
             <div className='w-20'></div>
           </div>
           <div className='flex justify-start space-x-0 text-[#000613] m-5 items-center' style={{
