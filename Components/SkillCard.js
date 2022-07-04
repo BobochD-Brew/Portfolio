@@ -35,6 +35,10 @@ const SKillCard = (props) => {
                 borderRadius: "1.5rem",
                 boxShadow: "0 0 15px #222",
                 backgroundColor: "#FAEFEF",
+                backgroundImage: 'url("loading.gif")',
+                backgroundPosition: "center center",
+                backgroundSize: "30%",
+                backgroundRepeat: "no-repeat",
                 overflow: "hidden",
             }}>
                 <a onClick={()=>{

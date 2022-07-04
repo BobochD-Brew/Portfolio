@@ -31,6 +31,10 @@ const OGCard = (props) => {
                 boxShadow: "0 0 15px #222",
                 backgroundColor: "#FAEFEF",
                 overflow: "hidden",
+                backgroundImage: 'url("loading.gif")',
+                backgroundPosition: "center center",
+                backgroundSize: "30%",
+                backgroundRepeat: "no-repeat"
                 
             }}>
                 <a onClick={()=>{
@@ -70,7 +74,7 @@ const OGCard = (props) => {
                             backgroundRepeat: "no-repeat"
                         }}>{props.children}</div>
                          :
-                         <img src={props.image} className="h-[75%] w-auto rounded-[20px]" style={{
+                         <img src={props.image} className="h-[75%] w-auto min-w-[20vh] rounded-[20px]" style={{
                             border: "#000613 solid 3px",
                             objectFit: "cover",
                             boxShadow: "0 0 10px #000613",
