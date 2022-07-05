@@ -67,7 +67,7 @@ export default function Home() {
             minWidth: "-webkit-min-content",
             }}>
             <div className='mr-[-15px] text-3xl z-20 mt-[3px]'>⏳</div>
-            <ProjectCard type={"ERC721"}  iframe={true} noScale={true} date="03/2022" text="Flows Life" link="https://opensea.io/collection/flows-life" image="https://lh3.googleusercontent.com/t6b9VECCAK4zFrRknJeQ4VarTMJO6kMgcYIGDlH8tUsSoGmekjOBtIfq7qmuzmcbLBZlaxtc7AGCr1PsizM7eXdINH_o1TIWUbPK=s0" >
+            <ProjectCard type={"ERC721"}  iframe={true} noScale={true} date="07/2022" text="Flows Life" link="https://opensea.io/collection/flows-life" image="https://lh3.googleusercontent.com/t6b9VECCAK4zFrRknJeQ4VarTMJO6kMgcYIGDlH8tUsSoGmekjOBtIfq7qmuzmcbLBZlaxtc7AGCr1PsizM7eXdINH_o1TIWUbPK=s0" >
               <div className='iframeWrapper w-full h-full relative'>
                 <img src="dice.png" className="w-8 h-8 m-1 absolute cursor-pointer" onClick={()=>{
                   setRandomState( (Math.floor(Math.random() * (100 - 0 + 1)) + 0))
